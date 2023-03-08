@@ -34,7 +34,7 @@ export default function Home() {
               </h1>
               <p className={hankenGrotesk.className}>Software Engineer</p>
               <a
-                href="bucktower.net"
+                href="https://bucktower.net"
                 className={[hankenGrotesk.className, styles.website].join(" ")}
               >
                 bucktower.net
