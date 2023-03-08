@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Space_Grotesk, Hanken_Grotesk } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import { IoDownload } from "react-icons/io5";
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 const hankenGrotesk = Hanken_Grotesk({ subsets: ["latin"] });
@@ -57,6 +58,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <a href="/vcard.vcf" className={styles.button}>
+          <IoDownload />{" "}
+          <span className={hankenGrotesk.className}>Download vCard</span>
+        </a>
       </main>
     </>
   );
