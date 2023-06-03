@@ -1,0 +1,83 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  /* border: 1px solid black; */
+  border-radius: 16px;
+  margin: 10px;
+  width: 100%;
+  max-width: 380px;
+  height: 217px;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 50px -5px,
+    rgba(0, 0, 0, 0.08) 0px 10px 20px -5px;
+}
+
+.website {
+  color: #0abde3;
+  transition: color 0.3s ease;
+}
+
+.website:hover {
+  color: #0894b2;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+
+  cursor: pointer;
+  margin-top: 16px;
+  transition: opacity 0.3s ease;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion) {
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .card {
+    box-shadow: 0px 0px 50px -5px rgba(255, 255, 255, 0.2),
+      0px 10px 20px -5px rgba(255, 255, 255, 0.08);
+  }
+
+  .website {
+    color: teal;
+  }
+}
+
+/* Animation Keyframes */
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
