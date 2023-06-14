@@ -11,7 +11,7 @@ export function ContactCard() {
       style={{
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-between',
+        justifyContent: 'space-between'
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -27,13 +27,19 @@ export function ContactCard() {
           >
             bucktower.net
           </a>
+          <a
+            href="https://twitter.com/bucktower"
+            className={[hankenGrotesk.className, styles.website].join(' ')}
+          >
+            @bucktower
+          </a>
         </div>
       </div>
       <div
         style={{
           display: 'flex',
           justifyContent: 'space-between',
-          alignItems: 'end',
+          alignItems: 'end'
         }}
       >
         <div>
