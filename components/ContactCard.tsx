@@ -27,6 +27,7 @@ export function ContactCard() {
           >
             bucktower.net
           </a>
+          <br />
           <a
             href="https://twitter.com/bucktower"
             className={[hankenGrotesk.className, styles.website].join(' ')}
