@@ -27,13 +27,13 @@ export function ContactCard() {
           >
             bucktower.net
           </a>
-          <br />
+          {/* <br />
           <a
             href="https://twitter.com/bucktower"
             className={[hankenGrotesk.className, styles.website].join(' ')}
           >
             @bucktower
-          </a>
+          </a> */}
         </div>
       </div>
       <div
